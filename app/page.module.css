@@ -1,10 +1,11 @@
-.main {
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Fredoka:wght@400;600&family=Poppins:wght@400;700&family=Roboto&family=Rubik:wght@400;500;700&display=swap');
+
+/* .main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding: 6rem;
-  min-height: 100vh;
 }
 
 .description {
@@ -107,7 +108,7 @@
 
 .logo {
   position: relative;
-}
+} */
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {

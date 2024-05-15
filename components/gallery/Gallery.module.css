@@ -1,0 +1,33 @@
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(4, 17rem);
+    grid-auto-rows: 10px;
+    height: 100%;
+    width: 100%;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    
+}
+/* .galleryImgCont{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+} */
+.galleryImg{
+    border-radius: 20px;
+}
+.svgLine{
+    position: absolute;
+    left: 7rem;
+    stroke-dasharray: 1202;
+    /* animation: 9s fillSvg linear; */
+}
+/* @keyframes fillSvg{
+    0%{
+        stroke-dashoffset: 1543;
+    }
+    100%{
+        stroke-dashoffset: 0;
+    }
+} */
